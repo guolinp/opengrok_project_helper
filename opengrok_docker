@@ -191,7 +191,7 @@ def container_cmd_start(argv):
     volumes += " -v {}:/data".format(project_work_dir(project_name, "data"))
     volumes += " -v {}:/hack".format(project_work_dir(project_name, "hack"))
     ports = "-p {}:8080".format(db.get("port"))
-    image = "panguolin/opengrok_v1.0"
+    image = "panguolin/opengrok"
 
     cmd_str = "docker run -d {} {} {} {}".format(name, volumes, ports, image)
     output = shell_run(cmd_str)
