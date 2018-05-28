@@ -1,15 +1,15 @@
 # What is it?
 
-A tool which can manager the opengrok projects and containers.
+A helper tool which can manager the opengrok projects and containers.
 
 
 # How to use?
 
 Run the command and get help
 
-    $ ./opengrok_docker 
+    $ ./opengrok_project_hepler
 
-Usage: opengrok_docker MODULE COMMAND [OPTIONS]
+Usage: opengrok_project_hepler MODULE COMMAND [OPTIONS]
 
     project create <project_name> <host_port>
     project remove <project_name>
